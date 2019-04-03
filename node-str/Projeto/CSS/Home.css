@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.cabecalho{
+    height: 200px;
+    width: 90%;
+    background: url('../Imagens/back_topo.gif') repeat-x;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.logo2{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+.menu{
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 59%;
+    width: 56%;
+    position: relative;
+	float: left;
+    text-align: center;
+    
+}
+
+.menu ul{
+    height: 58%;
+    width: 97%;
+    float: left;
+    background-color: orange;
+}
+
+.menu li{
+    position: relative;
+	float: left;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 20px;
+
+}
+
+.menu ul li a{
+    position: relative;
+	float: left;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    position: relative;
+	float: left;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #fff;
+}
+
